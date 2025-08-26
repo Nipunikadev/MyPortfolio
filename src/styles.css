@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+html, body, #root { height: 100%; }
+body { @apply bg-white text-gray-800; }
+a { @apply underline-offset-2; }
+.section { @apply py-16 md:py-24; }
+.container { @apply max-w-6xl mx-auto px-4; }
+.btn { @apply inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-gray-300 hover:border-gray-400 transition; }
+.btn-primary { @apply bg-brand text-white border-transparent hover:bg-brand-700; }
+.badge { @apply inline-flex items-center px-2.5 py-1 rounded-full text-sm border border-gray-200 bg-gray-50; }
+.card { @apply rounded-2xl border border-gray-200 shadow-sm p-6 bg-white; }
